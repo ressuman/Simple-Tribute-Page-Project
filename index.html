@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A tribute page to John Doe, featuring their achievements and inspirational quotes."
+    />
+    <meta
+      name="keywords"
+      content="John Doe, tribute, achievements, quotes, inspiration"
+    />
+    <meta name="author" content="Richard Essuman " />
+    <link
+      rel="shortcut icon"
+      href="./assets/images/photo-tribute.avif"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Tribute to John Doe</title>
+  </head>
+  <body>
+    <header>
+      <h1>Tribute to John Doe</h1>
+    </header>
+    <main>
+      <section class="intro">
+        <div class="container">
+          <div class="image-container">
+            <img
+              src="./assets/images/premium_photo.avif"
+              alt="John Doe's Img"
+            />
+          </div>
+          <div class="tribute-text">
+            <p>
+              John Doe is an inspiring individual known for his remarkable
+              achievements and admirable qualities.
+            </p>
+            <p>
+              He has made significant contributions in technology and have
+              impacted countless lives through his work.
+            </p>
+            <p>
+              John Doe is a role model for many, exemplifying qualities such as
+              resilience, determination, and empathy.
+            </p>
+            <p>
+              This tribute page is a small token of appreciation for his
+              dedication, passion, and positive influence on others.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="gallery">
+        <div class="container">
+          <h2>Photo Gallery</h2>
+          <div class="photos">
+            <img src="./assets/images/photo2.avif" alt="img1" />
+            <img src="./assets/images/photo3.avif" alt="img2" />
+            <img src="./assets/images/photo4.avif" alt="img3" />
+            <img src="./assets/images/photo1.avif" alt="img4" />
+            <img src="./assets/images/photo5.avif" alt="img5" />
+            <img src="./assets/images/photo6.avif" alt="img6" />
+            <img src="./assets/images/photo7.avif" alt="img7" />
+            <img src="./assets/images/photo8.avif" alt="img8" />
+          </div>
+          <!-- Modal for larger images -->
+          <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="modalImg" alt="Screenshot" />
+          </div>
+          <!-- Add directional buttons for navigating the gallery -->
+          <div class="direction-buttons">
+            <button type="button" id="prevButton">&lt; Prev</button>
+            <button type="button" id="nextButton">Next &gt;</button>
+          </div>
+        </div>
+      </section>
+      <section class="quotes">
+        <div class="container">
+          <h2>Inspirational Quotes</h2>
+          <div class="quote">
+            <blockquote>
+              "Success is not final, failure is not fatal: It is the courage to
+              continue that counts."
+            </blockquote>
+            <p>- Winston Churchill</p>
+          </div>
+          <div class="quote">
+            <blockquote>"Believe you can and you're halfway there."</blockquote>
+            <p>- Theodore Roosevelt</p>
+          </div>
+          <div class="quote">
+            <blockquote>
+              "The only limit to our realization of tomorrow will be our doubts
+              of today."
+            </blockquote>
+            <p>- Franklin D. Roosevelt</p>
+          </div>
+          <div class="quote">
+            <blockquote>
+              "The way to get started is to quit talking and begin doing."
+            </blockquote>
+            <p>- Walt Disney</p>
+          </div>
+          <div class="quote">
+            <blockquote>
+              "Don't watch the clock; do what it does. Keep going."
+            </blockquote>
+            <p>- Sam Levenson</p>
+          </div>
+        </div>
+      </section>
+      <button type="button" id="changeColorButton">
+        Change Background Color
+      </button>
+    </main>
+    <footer>
+      <p>Created with love by Richard Essuman</p>
+    </footer>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>

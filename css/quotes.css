@@ -1,0 +1,25 @@
+/* Quotes section styles */
+.quotes {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.quotes h2 {
+  margin-bottom: 20px;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.quote blockquote {
+  font-style: italic;
+}
+
+.quote p {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+/* Dark mode styles */
+.dark-mode .quote blockquote {
+  color: #ccc;
+}

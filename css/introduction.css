@@ -1,0 +1,31 @@
+.intro .container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.image-container {
+  float: left;
+  margin-right: 20px;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.tribute-text {
+  overflow: hidden;
+}
+
+.tribute-text p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/* Dark mode styles */
+.dark-mode .container {
+  background-color: #222;
+}
